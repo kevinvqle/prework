@@ -57,7 +57,8 @@ The main challenge with this project was fixing bugs that would occur during the
 -
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+-If I had more time to finish the project, I would make my coder more neater and put more effort into implmenting more function to make the game more interactive. If I could, I would of implmented a way to have the user be able to chose a difficulty of the pattern such as easy, medium and hard. Another function I would like to implement would be the option to have color schemes such as being able to chose different colors of the boxes and customize packs to share with other people. 
 
 
 
