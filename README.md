@@ -2,7 +2,7 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **NAME**
+Submitted by: **Kevin Le**
 
 Time spent: **7** hours spent in total
 
@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 * [x] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
-* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
@@ -44,13 +44,17 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+- GeeksForGeeks: to understand javascript,css, and html syntax
+- Mozilla : understand getElementById
+- HTML and CSS cheat sheets: quick and easy way to access css and html functionalities in a organized fasion
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+The main challenge with this project was fixing bugs that would occur during the process of the game. The first bug that occurred was when the player would click the button before the sound ended, this would cause the player to lose. In order to fix this issue, I had to research methods that would allow the player to increase the speed of the user's input in order to clear this error. A challenge that occurred during this project was creating a timer and a way to keep track of the points that the player has accumulated throughout the game. The first approach to building a timer method was looking at resources online like StackOverflow of people's previous attempts of making a timer and implementing that. First, what I did was set the timer at 10 and have the update timer function be called when the game starts. I used the getElementId to display it during the game and used the setTimeout function which is a global method that executes the timer function that I created once the timer expired. Within my playClueSequence, I created a condition, if the game is still playing, the timer would count down within a certain increment. This method worked well since the player can physically see the timer going down in real-time and as the player loses, the clear timer function would reset the timer and it would go back to 10 when the player wants to restart the game. Using the stack overflow, I was able to debug the issues of the timer not being able to show up due to not using the innerHTML method and using my id called in my HTML file (paragraph2) and being able to use it in my getElementId object. After completing this timer method for this project, I was able to move on and create my point system in order to keep track of my current points and the highest point the user has accumulated before refreshing the webpage. An issue that I had I faced was implementing the point method. When implementing this function, many times when clicking the right square wouldn't update the score. After researching on the web such as stackoverflow, I was able to implement a simular way to keep track of the point and highest point possible. In order to do this, I had to deal with a lot of conditions. To figure out my highest score, I had to compare it to my current score and if it was greater, I would call my update paragraph function. To increase the point every time the player got it right, I would have to use more conditionals such as progress == patternlength, the progress would increment and the current score would increase as well. 
+
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+-
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
@@ -64,7 +68,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Kevin Le]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
