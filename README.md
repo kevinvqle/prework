@@ -54,11 +54,14 @@ The main challenge with this project was fixing bugs that would occur during the
 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
--
+
+- How do you make your code more scalable when considering different platform this web game can be played on such as an ipad, phone, or a tablet?
+- What is the job prospect when it comes to web development? 
+- What other ways besides projects can I get better at web development? 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
--If I had more time to finish the project, I would make my coder more neater and put more effort into implmenting more function to make the game more interactive. If I could, I would of implmented a way to have the user be able to chose a difficulty of the pattern such as easy, medium and hard. Another function I would like to implement would be the option to have color schemes such as being able to chose different colors of the boxes and customize packs to share with other people. 
+-If I had more time to finish the project, I would make my coder more neater and put more effort into implmenting more function to make the game more interactive. If I could, I would of implmented a way to have the user be able to chose a difficulty of the pattern such as easy, medium and hard. This function could be implemented by adding buttons and changing the given source code for the pattern. The main use of this function would be as the difficulty gets harder, the faster the pattern goes and it makes the game more challenging for the user. Another function I would like to implement would be the option to have color schemes such as being able to chose different colors of the boxes and customize packs to share with other people. This function is more harder to implement, but my initial thoughts would be having a save options when it comes to desinging the pattern colors. 
 
 
 
