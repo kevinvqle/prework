@@ -68,8 +68,11 @@ The main challenge with this project was fixing bugs that would occur during the
 ## Interview Recording URL Link
 
 [My 5-minute Interview Recording](your-link-here)
-
-
+question 1: https://www.loom.com/share/ebc9cb92f23c4caebea6cc2ec6508591
+question 2: https://www.loom.com/share/b020112ad8f5433685ea4c2c54a31705
+question 3: https://www.loom.com/share/78a5fde943594c3ca8d5570551a4bd7e
+question 4: https://www.loom.com/share/c119add58a114c2f8c8331419f359e5d
+question 5: https://www.loom.com/share/14cc2662e5244978a28a145ddb42124c
 ## License
 
     Copyright [Kevin Le]
